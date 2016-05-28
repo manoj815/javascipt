@@ -6,9 +6,8 @@ module = function(){
       'contact':'contact'
    };
    var init = function(){
-	   alert('init');
-	   //this.current = xx;
-	   console.log(labels.home);
+	   //alert('init');	    
+	   console.log(current);
    };
    var show = function(){
       current = 1;
@@ -18,6 +17,7 @@ module = function(){
    }
    return{init:init, show:show, current:current}
 }();
+module.current	=11;
 module.init();
 
 var testimonial	=	{
