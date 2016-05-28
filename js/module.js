@@ -6,7 +6,7 @@ module = function(){
       'contact':'contact'
    };
    var init = function(){
-	   //alert('init');	    
+	   alert('init');	    
 	   console.log(current);
    };
    var show = function(){
