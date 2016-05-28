@@ -17,7 +17,7 @@ module = function(){
    }
    return{init:init, show:show, current:current}
 }();
-module.current	=11;
+//module.current	=11;
 module.init();
 
 var testimonial	=	{
