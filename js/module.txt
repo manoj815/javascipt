@@ -1,0 +1,18 @@
+module = function(){
+   var current = null;
+   var labels = {
+      'home':'home',
+      'articles':'articles',
+      'contact':'contact'
+   };
+   var init = function(){
+   };
+   var show = function(){
+      current = 1;
+   };
+   var hide = function(){
+      show();
+   }
+   return{init:init, show:show, current:current}
+}();
+module.init();
